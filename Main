@@ -18,11 +18,13 @@
         .sidebar{
             float:left;
             width:250px;
+            position: fixed;
             
         }
         .products-name{
             text-transform: uppercase;
             font-size: 18px;
+            position: fixed;
         }
         .sb-block .title{
             text-transform: uppercase;
@@ -124,12 +126,12 @@
             display: inline-block;
             margin: 0 10px 45px 0;
             min-height: 100px;
-            float:right;
+            float:inherit;
             border: 1px solid transparent;
             
         }
           .product-list>li:hover{
-            border: 1px solid yellow;
+            border: 1px solid black;
         }
        
         .product-list>li>img{
@@ -143,19 +145,14 @@
         .title-name{
             font-size: 45px;
             font-family: fantasy;
+            text-align: center;
         }
       
     </style>
     
     <body>
         <div class="title-name"> Dordoi Women's Clothes
-       <form class="search-board"> <input type="text" placeholder="Searching for...">
-           <select name="sex">
-          <option value="men"> Men</option> 
-            <option value="women"> Women</option>  
-           </select>
-        <button = " ">Search</button>
-            </form>
+       
             </div>
         
         <header>
@@ -170,68 +167,8 @@
         </header>
 <div class="header">
 <div class="nav"> 
- <div class="main">
-            <div class="wrapper">
-                <div class="sidebar">
-                <div class="products-name">
-                    <ul>
-                    <li><a href="#"> Spring </a></li>
-                        <li> <a href="#"> Summer </a> </li>
-                        <li><a href="#">Fall </a></li>
-                        <li><a href="#"> Winter</a></li>
-                    </ul>
-                    </div>
-                
-                 <form action="post">
-                <div class="sb-block">
-                    <h3 class="title">Parameters</h3>
-                    <ul>
-                    <li><a href="#" class="kyrgyzstan"> Kyrgyzstan</a> </li>
-                    <li><a href="#" class="kyrgyzstan 53"> 53</a></li>
-                    <li><a href="#" class="discard">Discard</a></li>
-                    </ul>
-                
-                </div>
+
                
-                <div class="sb-block options">
-                    <h3 class="title">Size</h3>
-                <label><input type="checkbox"> 31</label>
-                    <label><input type="checkbox"> 32 </label>
-                    <label><input type="checkbox"> 33</label>
-                    <label><input type="checkbox"> 34 </label>
-                    <label><input type="checkbox"> 35 </label>
-                    <label><input type="checkbox"> 36</label>
-                </div>
-                
-                <div class="sb-block">
-                    <h3 class="title">Country of manufacture</h3>
-                <ul>
-                    <li> <a href="#"> Kyrgyzstan </a> </li>
-                    <li> <a href="#">Turkey </a> </li>
-                    <li> <a href="#"> Russia</a> </li>
-                    <li> <a href="#"> China </a> </li>
-                    </ul>
-                </div>
-                
-                <div class="sb-block">
-                    <h3 class="title">Material</h3>
-                <label><input type="checkbox"> Leather </label>
-                    <label><input type="checkbox"> Silk </label>
-                    <label><input type="checkbox"> Matter </label>
-                
-                
-                </div>
-                
-                <div class="sb-block">
-                    <h3 class="title">Color</h3>
-                    <label><input type="checkbox"> Blue </label>
-                    <label><input type="checkbox"> Blue </label>
-                    <label><input type="checkbox"> Blue </label>
-                    <label><input type="checkbox"> Blue </label>
-                </div>
-                    </form>
-                </div>
-                <div class="right-col"></div>
                 </div>
             </div>
     </div>
