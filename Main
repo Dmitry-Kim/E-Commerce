@@ -186,6 +186,12 @@
     margin-bottom:30px;
     color:#fff;
   }
+        .products-head{
+            text-align: center;
+            color: black;
+            font-size: 50px;
+            font-family: fantasy;
+        }
     </style>
     
     <body>
@@ -207,6 +213,7 @@
 
     </div>
     </div>
+<div class="products-head"> Our products: </div>
         <ul class="product-list">
         <li> <span class="showInfo"> hello there <br> <a href="#"> More about product</a></span>
             <img src="http://wlooks.ru/images/article/cropped/337-472/2016/12/kostyum-iz-kofty-i-yubki-63.jpg" alt="image">
