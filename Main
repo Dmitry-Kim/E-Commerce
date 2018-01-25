@@ -13,6 +13,7 @@
         }
         .main{
             background-color: aliceblue;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0.83)), url(woman.jpg);
             padding: 30px 0 40px 0;
         }
         .sidebar{
@@ -57,7 +58,10 @@
         .topnav{
             background-color: white;
                 font-size: 14px;
-            margin-top: 40px;
+                background-color: #aaa;
+                text-align: center;
+                box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2); 
+                padding: 50px 0 50px 0;
             
         }
         
@@ -111,12 +115,17 @@
         
         .title-name{
             background-color: aqua;
-            padding: 30px 40px 40px 30px;
+            background-image: url(women.jpg)
+             padding: 30px 40px 40px 30px;
+            background-image: linear-gradient(rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0.83)), url(women.jpg);
+            height: 150vh;
+            background-size: cover;
+            background-position: center;
+             font-size: 45px;
+            font-family: fantasy;
+            text-align: center;
         }
-        .search-board{
-            float:right;
-            
-        }
+       
         .nav>ul>li{
             float: left;    
             margin-right: 
@@ -145,11 +154,7 @@
             padding-left: 10px;
         }
         
-        .title-name{
-            font-size: 45px;
-            font-family: fantasy;
-            text-align: center;
-        }
+       
         .showInfo{
             position: absolute;
             top:0;
@@ -166,14 +171,20 @@
             transition: all .5s;
                 
         }
-      
+        footer{
+             color: #fff;
+  background-color: #aaa;
+  text-align: center;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2); 
+            
+        }
+    footer h3{
+    margin-bottom:30px;
+    color:#fff;
+  }
     </style>
     
     <body>
-        <div class="title-name"> Dordoi Women's Clothes
-       
-            </div>
-        
         <header>
         <div class="topnav" id="myTopNav">
             <a href="#">HOME</a>
@@ -184,6 +195,11 @@
          <a href="#" id="menu" class="icon">&#9776;</a> 
             </div>
         </header>
+        <div class="title-name"> <h1> Dordoi Women's Clothes</h1>
+       
+            </div>
+        
+        
 
     </div>
     </div>
@@ -271,6 +287,16 @@
             
         </ul>
         
+
+    <footer>
+        <div>
+        <h3>Адрес: Дордой, проход 6 ряд 7 контейнер 12 </h3>
+   <h3>Номер: 0774471234</h3> 
+            </div>
+            </footer>
+
+    
+
  
     </body>
 
