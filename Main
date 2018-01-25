@@ -5,6 +5,7 @@
     </head>
     <meta charset="utf-8">
     <title> Market KG</title>
+    <link rel="stylesheet" href="bootstrap.css">
    
           
     <style>
@@ -14,7 +15,7 @@
         .main{
             background-color: aliceblue;
             background-image: linear-gradient(rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0.83)), url(woman.jpg);
-            padding: 30px 0 40px 0;
+            
         }
         .sidebar{
             float:left;
@@ -48,12 +49,7 @@
             
         }
         
-        nav{
-            margin: auto;
-            width: 800px;
-            height: 100px;
-            
-        }
+    
         
         .topnav{
             background-color: white;
@@ -62,6 +58,12 @@
                 text-align: center;
                 box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.2); 
                 padding: 50px 0 50px 0;
+            
+        }
+            nav{
+            margin: auto;
+            width: 800px;
+            height: 100px;
             
         }
         
@@ -74,9 +76,7 @@
             
         }
         
-        .topnav a:hover{
-            border-bottom: 2px solid #000;
-        }
+       
         
         .topnav .icon{
             display: none;
@@ -114,16 +114,20 @@
         }
         
         .title-name{
-            background-color: aqua;
             background-image: url(women.jpg)
-             padding: 30px 40px 40px 30px;
+             padding: 40 40px 40px 30px;
             background-image: linear-gradient(rgba(0, 0, 0, 0.83), rgba(0, 0, 0, 0.83)), url(women.jpg);
             height: 150vh;
             background-size: cover;
             background-position: center;
              font-size: 45px;
             font-family: fantasy;
+            color: white;
             text-align: center;
+        }
+        .title-name>h1{
+            margin-top: 0px; 
+            padding-top: 180px;
         }
        
         .nav>ul>li{
