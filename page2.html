@@ -13,9 +13,64 @@
     </head>
 <body>
     <h2>Product name</h1>
-    <div> <img src="#" alt="alt"> </div>
+    <div> <<div id="slider" class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="#" />
+    </li>
+    <li>
+      <img src="#" />
+    </li>
+    <li>
+      <img src="#" />
+    </li>
+    <li>
+      <img src="#" />
+    </li>
+    
+  </ul>
+</div>
+<div id="carousel" class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="slide1.jpg" />
+    </li>
+    <li>
+      <img src="slide2.jpg" />
+    </li>
+    <li>
+      <img src="slide3.jpg" />
+    </li>
+    <li>
+      <img src="slide4.jpg" />
+    </li>
+    
+  </ul>
+</div> </div>
     <p> </p>
     <div class="descr">Price: 123123 <br> Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit ipsum, quia dolor sit, amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam </div>
+   
+    <script> 
+    $(window).load(function() {
+  $('#carousel').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    itemWidth: 210,
+    itemMargin: 5,
+    asNavFor: '#slider'
+  });
+ 
+  $('#slider').flexslider({
+    animation: "slide",
+    controlNav: false,
+    animationLoop: false,
+    slideshow: false,
+    sync: "#carousel"
+  });
+});
+    </script>
     </body>
     
 </html>
